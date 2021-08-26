@@ -25,24 +25,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'f796f1d221581e86b58107c626efe70ecef2d709',
     'name' => '__root__',
   ),
   'versions' => 
   array (
     '__root__' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'f796f1d221581e86b58107c626efe70ecef2d709',
     ),
     'api-platform/core' => 
     array (
@@ -278,6 +278,15 @@ private static $installed = array (
       ),
       'reference' => 'f2df9f7a371a99a05e5bfe65c634a7e0cdf1c539',
     ),
+    'monolog/monolog' => 
+    array (
+      'pretty_version' => '2.3.2',
+      'version' => '2.3.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '71312564759a7db5b789296369c1a264efc43aad',
+    ),
     'namshi/jose' => 
     array (
       'pretty_version' => '7.2.3',
@@ -424,6 +433,7 @@ private static $installed = array (
       'provided' => 
       array (
         0 => '1.0|2.0',
+        1 => '1.0.0',
       ),
     ),
     'psr/simple-cache-implementation' => 
@@ -441,6 +451,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '62c5909f49cf74dccdf50a294511cc24be2f969c',
+    ),
+    'symfony/apache-pack' => 
+    array (
+      'pretty_version' => 'v1.0.1',
+      'version' => '1.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3aa5818d73ad2551281fc58a75afd9ca82622e6c',
     ),
     'symfony/asset' => 
     array (
@@ -653,6 +672,24 @@ private static $installed = array (
       array (
       ),
       'reference' => 'f093d906c667cba7e3f74487d9e5e55aaf25a031',
+    ),
+    'symfony/monolog-bridge' => 
+    array (
+      'pretty_version' => 'v5.3.4',
+      'version' => '5.3.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'a0d881165b902a04f41e873426aa52a068064ac4',
+    ),
+    'symfony/monolog-bundle' => 
+    array (
+      'pretty_version' => 'v3.7.0',
+      'version' => '3.7.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4054b2e940a25195ae15f0a49ab0c51718922eb4',
     ),
     'symfony/options-resolver' => 
     array (

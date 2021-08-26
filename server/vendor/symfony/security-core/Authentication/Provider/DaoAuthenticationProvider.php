@@ -98,7 +98,7 @@ class DaoAuthenticationProvider extends UserAuthenticationProvider
             }
 
             $hasher = $this->hasherFactory->getPasswordHasher($user);
-
+            
             if (!$hasher->verify($user->getPassword(), $presentedPassword, $salt)) {
                 throw new BadCredentialsException('The presented password is invalid.');
             }
